@@ -182,6 +182,8 @@ we envision KISS-Matcher as a community-driven project, we love to see how the p
 
 ## Acknowledgements
 
+This project was supported by the NRF grant funded by the government of South Korea, Ministry of Science and ICT (MSIT) (No. RS-2024-00461409).
+
 We sincerely express our gratitude to [Prof. Cyrill Stachniss’ group](https://www.ipb.uni-bonn.de/index.html) at the University of Bonn for their generosity in allowing us to use the term *KISS*.
 In particular, I (Hyungtae Lim) personally deeply appreciate [Tizziano Guadagnino](https://scholar.google.com/citations?user=5m73YFQAAAAJ&hl=it), [Benedikt Mersch](https://scholar.google.com/citations?user=XwuAB1sAAAAJ&hl=en), [Louis Wiesmann](https://scholar.google.de/citations?user=EEyCOpIAAAAJ&hl=de), and [Jens Behley](https://jbehley.github.io/) for their kind support and collaboration during my time at the University of Bonn.
 Without them, KISS-Matcher would not exist today. A special thanks goes to my co-author, [Nacho](https://github.com/nachovizzo), for taking the time to thoroughly teach me modern C++ and modern CMake.
