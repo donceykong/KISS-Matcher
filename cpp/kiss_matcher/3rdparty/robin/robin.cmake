@@ -25,7 +25,7 @@
 option(PMC_BUILD_SHARED "Build pmc as a shared library (.so)" OFF)
 
 include(FetchContent)
-FetchContent_Declare(robin URL https://github.com/MIT-SPARK/ROBIN/archive/refs/tags/v.1.2.3.tar.gz)
+FetchContent_Declare(robin URL https://github.com/MIT-SPARK/ROBIN/archive/refs/tags/v.1.2.4.tar.gz)
 FetchContent_GetProperties(robin)
 if(NOT robin)
   FetchContent_Populate(robin)
