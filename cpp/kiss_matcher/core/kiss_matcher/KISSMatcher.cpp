@@ -163,8 +163,8 @@ RegistrationSolution KISSMatcher::pruneAndSolve(const std::vector<Eigen::Vector3
   Eigen::Matrix<double, 3, Eigen::Dynamic> tgt_eigen(3, num_pruned_corr);
 
   for (size_t i = 0; i < num_pruned_corr; ++i) {
-    src_eigen.col(i) = src_matched[num_pruned_corr].cast<double>();
-    tgt_eigen.col(i) = tgt_matched[num_pruned_corr].cast<double>();
+    src_eigen.col(i) = src_matched[pruned_indices[i]].cast<double>();
+    tgt_eigen.col(i) = tgt_matched[pruned_indices[i]].cast<double>();
   }
   return solve(src_eigen, tgt_eigen);
 }
