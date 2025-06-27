@@ -183,6 +183,6 @@ int main(int argc, char** argv) {
   viewer1.addPointCloud<pcl::PointXYZRGB>(est_q_colored, "est_q_blue");
 
   while (!viewer1.wasStopped()) {
-    viewer1.spinOnce();
+    viewer1.spin();
   }
 }
