@@ -148,6 +148,6 @@ int main() {
   viewer1.addPointCloud<pcl::PointXYZRGB>(est_t_colored, "est_t_magenta");
 
   while (!viewer1.wasStopped()) {
-    viewer1.spinOnce();
+    viewer1.spin();
   }
 }
